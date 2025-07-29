@@ -1,0 +1,12 @@
+SCHEMAS=./schemas
+LIB_MODULES=./karrio/schemas/ajex
+find "${LIB_MODULES}" -name "*.py" -exec rm -r {} \;
+touch "${LIB_MODULES}/__init__.py"
+
+generate_schema () {
+    echo "Generating $1..."
+    quicktype --all-properties-optional --no-uuids --no-date-times --no-enums --src-lang json $@
+}
+
+generate_schema --src="${SCHEMAS}/error_response.json" --out="${LIB_MODULES}/error_response.py"
+generate_schema --src="${SCHEMAS}/tracking_response.json" --out="${LIB_MODULES}/tracking_response.py"

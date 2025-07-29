@@ -1,0 +1,62 @@
+{
+  "status": true,
+  "data": [
+    {
+      "referance_awb": "174626353299799",
+      "cp_awb": "ALSASAR004545065",
+      "is_mps": false,
+      "box_count": null,
+      "allocated_courier_partner": "Logistiqcp",
+      "customer_details": {
+        "name": "Matali Logistics WH",
+        "phone": "582268432",
+        "address": "Riyadh Ad Dar Al Baida",
+        "city": "Riyadh",
+        "state": "Al-Riyadh",
+        "country": "SA",
+        "postal_code": "Riyadh"
+      },
+      "order_details": {
+        "brand_reference_number": "RO-03052025-MSHQI",
+        "created_date": "2025-05-03T09:12:13.119058Z",
+        "delivery_date": null,
+        "current-stage": {
+          "stage": "PICKUP_FAILED",
+          "date": "2025-05-03T14:18:34.218000Z",
+          "alpha_status_code": 139
+        }
+      },
+      "tracking_history": {
+        "updates": [
+          {
+            "status": "CREATED",
+            "alpha_status_code": 124,
+            "date": "2025-05-03T09:12:13.152049Z",
+            "created_date": "2025-05-03T09:12:13.119058Z",
+            "scanned_location": null,
+            "status_remark": "Return Initiated",
+            "additional_remark": null
+          },
+          {
+            "status": "OUT_FOR_PICKUP",
+            "alpha_status_code": 125,
+            "date": "2025-05-03T11:19:38.329000Z",
+            "created_date": "2025-05-03T09:12:13.119058Z",
+            "scanned_location": "LOGRYD",
+            "status_remark": "Return Order Out For Pickup",
+            "additional_remark": "Out For Pickup"
+          },
+          {
+            "status": "PICKUP_FAILED",
+            "alpha_status_code": 139,
+            "date": "2025-05-03T14:18:34.218000Z",
+            "created_date": "2025-05-03T09:12:13.119058Z",
+            "scanned_location": "LOGRYD",
+            "status_remark": "Return Order Pickup Failed",
+            "additional_remark": "Product Not Ready"
+          }
+        ]
+      }
+    }
+  ]
+}

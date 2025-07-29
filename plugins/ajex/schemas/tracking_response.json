@@ -1,0 +1,42 @@
+{
+  "responseCode": "100",
+  "responseMessage": "Success",
+  "waybillNumber": "AJ1504571554610",
+  "orderDetails": {
+    "finalStatusCode": 33,
+    "finalStatus": "Delayed package enter HUB",
+    "productName": "Domestic Express",
+    "weight": 146.5,
+    "actualAmount": 441.0,
+    "shippmentDate": "2022-02-06T13:37:45+05:30",
+    "deliveryDate": null,
+    "senderDetails": {
+      "postalCode": null,
+      "city": "Riyadh",
+      "name": "Ahmed",
+      "fullAddress": "Ad Dhubbat,Riyadh,Riyadh Province,Saudi Arabia"
+    },
+    "receiverDetails": {
+      "postalCode": null,
+      "city": "Riyadh",
+      "name": "ANAQAT",
+      "fullAddress": "Ad Dhubbat,Riyadh,Riyadh Province,Saudi Arabia"
+    }
+  },
+  "orderTrackingHistory": [
+    {
+      "actionTime": "2022-02-06T11:07:45.612+03:00",
+      "status": "The receiving agent has received the order",
+      "statusCode": 100,
+      "note": "Order Pickup request has been created.",
+      "cityName": null,
+      "timeZone": "GMT+08:00",
+      "payment": {
+        "method": "POS/CASH",
+        "status": true,
+        "time": "2022-02-06T11:07:45.612+03:00",
+        "timeZone": "GMT+08:00"
+      }
+    }
+  ]
+}

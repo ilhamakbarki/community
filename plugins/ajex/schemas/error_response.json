@@ -1,0 +1,8 @@
+{
+    "status": "BAD_REQUEST",
+    "message": "The full stack trace has been logged",
+    "error": "Unauthorized",
+    "errors": [
+        "password: must not be blank"
+    ]
+}

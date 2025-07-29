@@ -1,0 +1,37 @@
+{
+  "code": "1",
+  "msg": "success",
+  "data": [
+    {
+      "billCode": "UTE010001093135",
+      "details": [
+        {
+          "scanTime": "2021-11-17 12:15:43",
+          "desc": "The parcel has been signed by [YAUA], if you have any questions, please contact: +966-135141216456, If you have any problems or need to complain, please call the station： ",
+          "scanType": "Sign scan",
+          "scanTypeCode": "10",
+          "scanNetworkName": "Riyadh station 1",
+          "scanNetworkId": 193,
+          "staffName": "Name",
+          "staffContact": "Name",
+          "scanNetworkContact": "Name",
+          "scanNetworkProvince": "Riyadh",
+          "scanNetworkCity": "Riyadh",
+          "scanNetworkArea": "Riyadh",
+          "nextStopName": "Riyadh",
+          "nextNetworkProvinceName": "Riyadh",
+          "nextNetworkCityName": "Riyadh",
+          "nextNetworkAreaName": "Riyadh",
+          "sigPicUrl": "https://image.baidu.com/search/detail?ct=503316480",
+          "electronicSignaturePicUrl": "https://image.baidu.com/search/detail?ct=503316480",
+          "longitude": 192310293102,
+          "latitude": 192310293102,
+          "otp": "otp",
+          "problemPicUrl": "https://image.baidu.com/search/detail?ct=503316480",
+          "secondLevelTypeCode": "101",
+          "arrivalPicUrl": "https://image.baidu.com/search/detail?ct=503316480"
+        }
+      ]
+    }
+  ]
+}
